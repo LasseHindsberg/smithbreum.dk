@@ -1,0 +1,123 @@
+.footer {
+    background-color: $footer-color;
+    height: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+
+
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: auto 50px;
+    grid-template-areas:
+        'contact socials'
+        'copyright copyright';
+    justify-content: space-evenly;
+
+    // Styling section with contact informations
+    &__section {
+        display: grid;
+        grid-template-columns: auto;
+        text-transform: capitalize;
+    }
+
+    &__header {
+        text-align: center;
+        font-size: $font-size-subheader;
+    }
+
+    &__bar {
+        width: 60%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__phone {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__address {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__mail {
+        display: flex;
+        justify-content: center;
+        text-transform: none;
+    }
+
+    // Styling socials section
+    &__socials {
+        display: grid;
+        grid-template-columns: auto;
+        text-transform: capitalize;
+    }
+
+    &__socials a {
+        text-decoration: none;
+        font-family: $text-font-body;
+        letter-spacing: normal;
+    }
+
+    &__header {
+        text-align: center;
+        font-size: $font-size-subheader;
+    }
+
+    &__bar {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 40%;
+    }
+
+    &__facebook {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__twitter {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__instagram {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    // Adding small gap between each section.
+    &__phone,
+    &__address,
+    &__mail,
+    &__facebook,
+    &__twitter,
+    &__instagram {
+        padding-bottom: 10px;
+    }
+
+    // Styling copyright section
+    &__copyright {
+        margin-top: 25px;
+        grid-area: copyright;
+
+        #copyright {
+            text-align: center;
+            font-style: italic;
+            font-weight: $font-weight-light;
+            font-family: $text-font-header;
+        }
+    }
+
+}
+// Styling icons to be bigger, add gap between them and text
+.fa-phone,
+.fa-map-marker-alt,
+.fa-envelope,
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
+    margin-right: 10px;
+    font-size: $font-size-subheader;
+}

@@ -1,0 +1,12 @@
+.aboutPage {
+    margin-top: 50px;
+    column-gap: $grid-gap;   
+    row-gap: $grid-gap;
+    display: grid;
+    grid-template-columns: minmax(30%,50%) minmax(30%, 50%);
+}
+
+.about__image img {
+    width: 100%;
+}
+

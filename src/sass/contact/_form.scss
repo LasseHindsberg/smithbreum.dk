@@ -1,0 +1,35 @@
+.contact__form {
+    grid-area: form;
+    background-color: $footer-color;
+    color: $font-color;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    'header header'
+    'name msg'
+    'email msg'
+    'tel submitBtn';
+}
+
+.form {
+    &__header {
+        grid-area: header;
+    }
+    &__name {
+        grid-area: name;
+    }
+    &__email {
+        grid-area: email;
+    }
+    &__tel {
+        grid-area: tel;
+    }
+    &__msg {
+        grid-area: msg;
+    }
+    &__button {
+        grid-area: submitBtn;
+        width: 150px;
+        margin-left: auto;
+    }
+}

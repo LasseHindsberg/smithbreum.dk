@@ -1,0 +1,67 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button{
+    font-family: $text-font-header;
+    color: $font-color;
+    letter-spacing: 3px;
+}
+
+p,
+li,
+i {
+    font-family: $text-font-body;
+    color: $font-color;
+}
+
+body {
+    background-color: $background-color;
+}
+
+hr {
+    margin: 0 auto;
+}
+
+button {
+    padding: 5px;
+    margin-top: 15px;
+    font-style: italic;
+    background: none;
+    border: none;
+}
+input, textarea {
+    font-family: $text-font-body;
+    font-size: $font-size-body;
+    color: $font-color;
+    width: 45%;
+    height: auto;
+    background: none;
+    border: none;
+    border-bottom: $font-color 2px solid;
+}
+input::placeholder, textarea::placeholder {
+    font-family: $text-font-body;
+    color: $font-color;
+}
+
+
+button:hover,
+a:hover {
+    background-color: $hover-color;
+}
+
+.active {
+    background-color: $active-color;
+}
+
+.mainPage,
+.aboutPage,
+.rentalsPage,
+.contactPage {
+    width: $page-width;
+    margin: 0 auto;
+}

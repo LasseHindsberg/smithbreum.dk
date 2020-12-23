@@ -1,0 +1,40 @@
+.mainPage__secondaryNav {
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    grid-template-columns: 350px 5px 350px 5px 350px;
+    grid-template-rows: auto 1px;
+    justify-content: space-evenly;
+}
+
+
+.secondaryNav__element {
+    text-align: center;
+    width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+}
+
+.secondaryNav__header {
+    font-size: $font-size-subheader;
+    margin-bottom: 5px;
+}
+
+
+
+// border lines between elements
+.secondaryNav__middleSpacer {
+    background-color: $border-color;
+    width: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+// lines below elements
+.secondaryNav__bottomLine {
+    background-color: $border-color;
+    height: 1px;
+    width: 50px;
+    margin: 0 auto;
+}

@@ -1,0 +1,44 @@
+.mainPage__video {
+    height: auto;
+    margin-top: 35px;
+
+}
+
+#bgVideo {
+    
+    min-width: 100%;
+    filter: brightness(80%) grayscale(100%);
+}
+
+.videoOverlay {
+    z-index: 1;
+    position: absolute; 
+
+    background: rgba($background-color, 0.5);
+    color: white;
+
+    width: auto;
+    height: auto;
+
+    padding: 10px;
+    // border-radius: 15px;
+
+    bottom: 10%;
+
+    &__header {
+        font-size: $font-size-header;
+    }
+}
+
+.videoOverlay button {
+    padding: 5px;
+    margin-top: 15px;
+    font-style: italic;
+    background: none;
+    border: none;
+    font-size: $font-size-subheader;
+}
+
+.videoOverlay a {
+    text-decoration: none;
+}

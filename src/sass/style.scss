@@ -1,0 +1,35 @@
+// General Variables for page
+@import "variables/variables";
+
+// Styling of general text elements and etc.
+@import "pageElements/elementStyling";
+
+// Style for navbar
+@import "pageElements/nav";
+
+// Style for  Footer 
+@import "pageElements/footer";
+
+// Mobile design
+@import "responsiveness/mobileDesign";
+
+//  ---- PAGES ----
+// Styling for front page
+@import "frontpage/FrontPageCSS";
+
+// Styling for about page
+@import "about/aboutCSS";
+
+// Styling for rental page
+@import "rentals/rentalsCSS";
+
+// styling for contact page
+@import "contact/contactCSS";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

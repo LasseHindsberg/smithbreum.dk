@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./assets/media/favicon.ico" type="image/x-icon">
+    <title> Forside &VerticalLine; Smith &amp; Breum maskinudlejning </title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/87c28705a7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <nav class="nav">
+            <ul class="nav__linkContainer">
+                <!-- Logo is bigger -->
+                <h1 class="nav__logo"><a href="#home">Smith &amp; Breum A/S</a></h1>
+                <!-- Links to other pages -->
+                <li class="nav__link"><a href="about.html">About</a></li>
+                <li class="nav__link"><a href="rentals.html">Rentals</a></li>
+                <li class="nav__link"><a href="contact.html">Contact</a></li>
+            </ul>
+            <hr class="nav__borderBar">
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- Wrapper for main page -->
+        <div class="mainPage" id="home">
+            <!-- Playing video when user opens website -->
+            <section class="mainPage__video">
+                <div class="videoOverlay">
+                    <h1 class="videoOverlay__header">Lorem, ipsum dolor.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, enim unde odio quae ipsum iusto.
+                    </p>
+                    <button><a href="#">Learn More.</a></button>
+                </div>
+                <video src="./assets/media/frontpageVideo.mp4" muted autoplay loop playsinline id="bgVideo"></video>
+            </section>
+
+            <!-- A few things that are important to link to, secondary "nav" -- Nav but bigger, with description per page -->
+            <article class="mainPage__secondaryNav">
+                <section class="secondaryNav__element">
+                    <h2 class="secondaryNav__header"><a href="about.html">About</a></h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis optio hic ducimus
+                        laudantium recusandae eius, repellat consequatur velit ad! Quam nulla tenetur aliquid vero
+                        tempora.</p>
+                </section>
+                <div class="secondaryNav__middleSpacer"></div>
+                <section class="secondaryNav__element">
+                    <h2 class="secondaryNav__header"><a href="rentals.html">Rentals &amp; Shop</a></h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis optio hic ducimus
+                        laudantium recusandae eius, repellat consequatur velit ad! Quam nulla tenetur aliquid vero
+                        tempora.</p>
+
+                </section>
+                <div class="secondaryNav__middleSpacer"></div>
+                <section class="secondaryNav__element">
+                    <h2 class="secondaryNav__header"><a href="contact.html">Contact</a></h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis optio hic ducimus
+                        laudantium recusandae eius, repellat consequatur velit ad! Quam nulla tenetur aliquid vero
+                        tempora.</p>
+                </section>
+                <div class="secondaryNav__bottomLine"></div>
+                <div class="secondaryNav__bottomSpacer"></div>
+                <div class="secondaryNav__bottomLine"></div>
+                <div class="secondaryNav__bottomSpacer"></div>
+                <div class="secondaryNav__bottomLine"></div>
+            </article>
+
+
+            <!-- 2 part enhanced element section, one main element left side and multiple minor elements on right side -->
+            <article class="mainPage__enhancedElements">
+                <!-- Single Enhanced Element -->
+                <section class="mainPage__leftEnhanced">
+                    <div class="leftEnhanced__Spacer"></div>
+                    <figure>
+                        <img class="leftEnhanced__img" src="./assets/media/construction.jpg" alt="">
+                        <figcaption>
+                            <h3>Lorem ipsum dolor sit.</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum error dolorum dignissimos
+                                nam quidem porro doloribus, cum autem sunt perspiciatis possimus optio fuga molestias
+                                voluptas.</p>
+                            <button><a href="#">Learn More</a></button>
+                        </figcaption>
+                    </figure>
+                </section>
+                <!-- multiple enhanced elements -->
+                <aside class="mainPage__rightEnhanced">
+                    <h2 class="rightEnhanced__header"> Also Check Out</h2>
+                    <hr class="rightEnhanced__upperBar">
+                    <div class="rightEnhanced__thumbnail"><img src='https://dummyimage.com/250x250//fff' alt=''></div>
+                    <section class="rightEnhanced__productContainer">
+                        <h3 class="rightEnhanced__productName">Lorem, ipsum dolor.</h3>
+                        <p class="rightEnhanced__productDescription">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Qui itaque harum corporis amet aperiam eius error dolore, repudiandae minima deserunt!
+                        </p>
+                        <button class="rightEnhanced__productBtn"><a href="#">Read more.</a></button>
+                    </section>
+                    <div class="rightEnhanced__thumbnail"><img src='https://dummyimage.com/250x250//fff' alt=''></div>
+                    <section class="rightEnhanced__productContainer">
+                        <h3 class="rightEnhanced__productName">Lorem, ipsum dolor.</h3>
+                        <p class="rightEnhanced__productDescription">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Qui itaque harum corporis amet aperiam eius error dolore, repudiandae minima deserunt!
+                        </p>
+                        <button class="rightEnhanced__productBtn"><a href="#">Read more.</a></button>
+                    </section>
+                    <div class="rightEnhanced__thumbnail"><img src='https://dummyimage.com/250x250//fff' alt=''></div>
+                    <section class="rightEnhanced__productContainer">
+                        <h3 class="rightEnhanced__productName">Lorem, ipsum dolor.</h3>
+                        <p class="rightEnhanced__productDescription">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Qui itaque harum corporis amet aperiam eius error dolore, repudiandae minima deserunt!
+                        </p>
+                        <button class="rightEnhanced__productBtn"><a href="#">Read more.</a></button>
+                    </section>
+                    <div class="rightEnhanced__thumbnail"><img src='https://dummyimage.com/250x250//fff' alt=''></div>
+                    <section class="rightEnhanced__productContainer">
+                        <h3 class="rightEnhanced__productName">Lorem, ipsum dolor.</h3>
+                        <p class="rightEnhanced__productDescription">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Qui itaque harum corporis amet aperiam eius error dolore, repudiandae minima deserunt!
+                        </p>
+                        <button class="rightEnhanced__productBtn"><a href="#">Read more.</a></button>
+                    </section>
+                </aside>
+            </article>
+        </div>
+    </main>
+    <!-- -->
+    <footer class="footer">
+        <section class="footer__section">
+            <h4 class="footer__header">Find us here</h4>
+            <hr class="footer__bar">
+            <div class="footer__phone">
+                <i class="fa fa-phone"></i>
+                <p> &plus;45 12 34 56 78</p>
+            </div>
+            <div class="footer__address">
+                <i class="fa fa-map-marker-alt"></i>
+                <p> pulsen 8, 4000 roskilde</p>
+            </div>
+            <div class="footer__mail">
+                <i class="far fa-envelope"></i>
+                <p>standard@mail.dk</p>
+            </div>
+        </section>
+        <section class="footer__socials">
+            <h4 class="footer__header">Follow us on</h4>
+            <hr class="footer__bar">
+            <div class="footer__facebook">
+                <i class="fab fa-facebook"></i>
+                <a href="http://facebook.com" target="_blank">Smith &amp; Breum on Facebook</a>
+            </div>
+            <div class="footer__twitter">
+                <i class="fab fa-twitter"></i>
+                <a href="http://instagram.com" target="_blank">Smith &amp; Breum on Instagram</a>
+            </div>
+            <div class="footer__instagram">
+                <i class="fab fa-instagram"></i>
+                <a href="http://twitter.com" target="_blank">Smith &amp; Breum on Twitter</a>
+
+            </div>
+        </section>
+        <section class="footer__copyright">
+            <h4 id="copyright">Copyright &copy; 2020 &middot; Smith &amp; Breum A/S</h4>
+        </section>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

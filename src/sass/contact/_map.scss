@@ -1,0 +1,38 @@
+.contact {
+
+  &__container {
+    display: grid;
+    grid-template-columns: minmax(30%,50%) minmax(30%,50%) minmax(30%,50%);
+    justify-content: space-between;
+    grid-template-rows: minmax(40%, 60%) minmax(20%, 40%);
+    grid-template-areas: 
+    'contact contact map'
+    'form form map';
+
+    column-gap: $grid-gap;
+    row-gap: $grid-gap;
+  }
+  &__content {
+    grid-area: contact;
+
+  }
+
+  &__icons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  &__phone i,&__address i,&__mail i {
+    margin: 15px;
+  }
+}
+
+#map {
+  margin-top: 25px;
+  width: 100%;
+  grid-area: map;
+  }
+
+
+  // FORM IS IN SEPERATE SHEET
