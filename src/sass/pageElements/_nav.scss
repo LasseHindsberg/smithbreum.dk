@@ -38,8 +38,13 @@
         color: $font-color;
     }
 
-    &__borderBar {
+    &__borderBar{
         width: 87%;
         margin-top: 11px;
+    }
+    &__borderMobileBar {
+        width: 100vw;
+        margin-top: 22px;
+        display: none;
     }
 }

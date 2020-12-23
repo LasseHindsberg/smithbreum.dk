@@ -1,0 +1,48 @@
+@media screen and (max-width: 600px) {
+    //#region NAV
+    .nav {
+        width: 100vw;
+        height: auto;
+        // display: none;
+        
+        &__logo {
+            font-size: $font-size-mobileHeader;
+            width: 100%;
+            grid-area: logo;
+            text-align: center;
+        }
+        ul {
+            display: grid;
+            grid-template-areas: 'logo logo logo'
+            'navMobileBar navMobileBar navMobileBar'
+            'about rentals contact';
+        }
+        li a{
+            font-size: $font-size-mobileBody;
+        }
+        ul li {
+            margin-top: 2%;
+        }
+        &__borderMobileBar {
+            grid-area: navMobileBar;
+            display: inline;
+        } 
+        &__borderBar {
+            display: none;
+        }
+    }
+    .mobileAbout {
+        grid-area: about;
+    }
+    .mobileRentals {
+        grid-area: rentals;
+    }
+    .mobileContact {
+        grid-area: contact;
+    }
+// #endregion
+
+
+
+
+}
